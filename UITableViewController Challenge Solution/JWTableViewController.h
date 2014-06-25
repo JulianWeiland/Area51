@@ -1,5 +1,5 @@
 //
-//  JWViewController.h
+//  JWTableViewController.h
 //  UITableViewController Challenge Solution
 //
 //  Created by Julian Weiland on 25.06.14.
@@ -8,6 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface JWViewController : UIViewController
+@interface JWTableViewController : UITableViewController
 
 @end

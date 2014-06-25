@@ -14,13 +14,13 @@
 		C3D44ABF195B1D01001FB621 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C3D44ABE195B1D01001FB621 /* main.m */; };
 		C3D44AC3195B1D01001FB621 /* JWAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C3D44AC2195B1D01001FB621 /* JWAppDelegate.m */; };
 		C3D44AC6195B1D01001FB621 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C3D44AC4195B1D01001FB621 /* Main.storyboard */; };
-		C3D44AC9195B1D01001FB621 /* JWViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C3D44AC8195B1D01001FB621 /* JWViewController.m */; };
 		C3D44ACB195B1D01001FB621 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C3D44ACA195B1D01001FB621 /* Images.xcassets */; };
 		C3D44AD2195B1D02001FB621 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C3D44AD1195B1D02001FB621 /* XCTest.framework */; };
 		C3D44AD3195B1D02001FB621 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C3D44AB2195B1D01001FB621 /* Foundation.framework */; };
 		C3D44AD4195B1D02001FB621 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C3D44AB6195B1D01001FB621 /* UIKit.framework */; };
 		C3D44ADC195B1D02001FB621 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C3D44ADA195B1D02001FB621 /* InfoPlist.strings */; };
 		C3D44ADE195B1D02001FB621 /* UITableViewController_Challenge_SolutionTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C3D44ADD195B1D02001FB621 /* UITableViewController_Challenge_SolutionTests.m */; };
+		C3D44AE9195B20D9001FB621 /* JWTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C3D44AE8195B20D9001FB621 /* JWTableViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,14 +45,14 @@
 		C3D44AC1195B1D01001FB621 /* JWAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JWAppDelegate.h; sourceTree = "<group>"; };
 		C3D44AC2195B1D01001FB621 /* JWAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JWAppDelegate.m; sourceTree = "<group>"; };
 		C3D44AC5195B1D01001FB621 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		C3D44AC7195B1D01001FB621 /* JWViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JWViewController.h; sourceTree = "<group>"; };
-		C3D44AC8195B1D01001FB621 /* JWViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JWViewController.m; sourceTree = "<group>"; };
 		C3D44ACA195B1D01001FB621 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		C3D44AD0195B1D02001FB621 /* UITableViewController Challenge SolutionTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "UITableViewController Challenge SolutionTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C3D44AD1195B1D02001FB621 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		C3D44AD9195B1D02001FB621 /* UITableViewController Challenge SolutionTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "UITableViewController Challenge SolutionTests-Info.plist"; sourceTree = "<group>"; };
 		C3D44ADB195B1D02001FB621 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		C3D44ADD195B1D02001FB621 /* UITableViewController_Challenge_SolutionTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UITableViewController_Challenge_SolutionTests.m; sourceTree = "<group>"; };
+		C3D44AE7195B20D9001FB621 /* JWTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JWTableViewController.h; sourceTree = "<group>"; };
+		C3D44AE8195B20D9001FB621 /* JWTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JWTableViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -115,8 +115,8 @@
 				C3D44AC1195B1D01001FB621 /* JWAppDelegate.h */,
 				C3D44AC2195B1D01001FB621 /* JWAppDelegate.m */,
 				C3D44AC4195B1D01001FB621 /* Main.storyboard */,
-				C3D44AC7195B1D01001FB621 /* JWViewController.h */,
-				C3D44AC8195B1D01001FB621 /* JWViewController.m */,
+				C3D44AE7195B20D9001FB621 /* JWTableViewController.h */,
+				C3D44AE8195B20D9001FB621 /* JWTableViewController.m */,
 				C3D44ACA195B1D01001FB621 /* Images.xcassets */,
 				C3D44AB9195B1D01001FB621 /* Supporting Files */,
 			);
@@ -200,6 +200,9 @@
 				LastUpgradeCheck = 0510;
 				ORGANIZATIONNAME = "Julian Weiland";
 				TargetAttributes = {
+					C3D44AAE195B1D00001FB621 = {
+						DevelopmentTeam = C64534D9YM;
+					};
 					C3D44ACF195B1D02001FB621 = {
 						TestTargetID = C3D44AAE195B1D00001FB621;
 					};
@@ -250,8 +253,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C3D44AE9195B20D9001FB621 /* JWTableViewController.m in Sources */,
 				C3D44ABF195B1D01001FB621 /* main.m in Sources */,
-				C3D44AC9195B1D01001FB621 /* JWViewController.m in Sources */,
 				C3D44AC3195B1D01001FB621 /* JWAppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -377,6 +380,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "UITableViewController Challenge Solution/UITableViewController Challenge Solution-Prefix.pch";
 				INFOPLIST_FILE = "UITableViewController Challenge Solution/UITableViewController Challenge Solution-Info.plist";
@@ -390,6 +394,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "UITableViewController Challenge Solution/UITableViewController Challenge Solution-Prefix.pch";
 				INFOPLIST_FILE = "UITableViewController Challenge Solution/UITableViewController Challenge Solution-Info.plist";
